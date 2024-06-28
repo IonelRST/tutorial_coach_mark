@@ -39,7 +39,7 @@ TargetPosition? getTargetCurrent(
 
       return TargetPosition(size, offset);
     } catch (e) {
-      throw NotFoundTargetException();
+      //throw NotFoundTargetException();
     }
   } else {
     return target.targetPosition;
